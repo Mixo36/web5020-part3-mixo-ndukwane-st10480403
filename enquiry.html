@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enquiry – Morning Cloud Café</title>
+<meta name="description" content="Send an enquiry to Morning Cloud Café about orders, catering, pastries, or special events.">
+
+  <title>Morning Cloud Cafe</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+<main>
+  <h2 id="enquiry-title" class="typewriter"></h2>
+
+  <div class="form-container">
+    <form action="submit_enquiry.php" method="post">
+      <li><label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required></li>
+      <br>
+      <li><label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="@gmail.com" required></li>
+    <br>
+      <li><label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="+27623456789" required></li>
+      <br>
+
+      <li><label for="company">Company / Organization (if applicable)</label>
+      <input type="text" id="company" name="company" placeholder="Your company or organization name"></li>
+      <br>
+     <li><label for="enquiryType">Enquiry Type</label>
+      <select id="enquiryType" name="enquiryType" required>
+        <option value="">-- Please select --</option>
+        <option value="product">Product Enquiry</option>
+        <option value="service">Service Enquiry</option>
+        <option value="volunteer">Volunteer (NPO)</option>
+        <option value="sponsor">Become a Sponsor (NPO)</option>
+      </select></li>
+       <br>
+      <li><label for="message">Message / Details</label>
+      <textarea id="message" name="message" placeholder="Let us know what you'd like to ask or offer" required></textarea></li>
+        <br>
+      <li><button type="submit">Submit Enquiry</button></li>
+    </form>
+    </div>
+</main>
+<!-- Footer Section -->
+<footer class="site-footer">
+
+  <h3>☁️ Morning Cloud Café</h3>
+
+  <p>17 Strand Avenue, Humewood, Eastern Cape</p>
+<p>Email: <a href="mailto:info@morningcloudcafe.com">info@morningcloudcafe.com</a></p>
+<p>Phone: <a href="tel:+27692761734">069 276 1734</a></p>
+
+  <div class="footer-links">
+    <a href="https://wa.me/27692761734" target="_blank">WhatsApp</a> |
+    <a href="https://facebook.com/morningcloudcafe" target="_blank">Facebook</a> |
+    <a href="https://instagram.com/morningcloudcafe" target="_blank">Instagram</a>
+  </div>
+  
+
+
+ <p class="footer-copy">&copy; 2023 Morning Cloud Café. All rights reserved.</p>
+</footer>
+ <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
