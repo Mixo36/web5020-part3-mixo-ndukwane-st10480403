@@ -13,4 +13,9 @@ morining cloud cafe- a website for local coffee shop
 - Optimised all images with descriptive filenames and alt text.
 - Created robots.txt to allow crawling.
 - Created sitemap.xml to help Google index the site.
-
+## References
+- Google Maps Embed API
+- Formspree.io (contact form handling)
+- W3Schools Lightbox Tutorial
+- MDN Web Docs (JavaScript reference)
+- StackOverflow snippets for JavaScript event handling
